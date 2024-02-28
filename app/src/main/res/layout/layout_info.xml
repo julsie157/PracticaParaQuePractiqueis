@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Esta es la informacion de los Coches:" />
+
+    <TextView
+        android:id="@+id/textViewMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Titulo" />
+
+    <TextView
+        android:id="@+id/textViewModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Autor" />
+
+    <TextView
+        android:id="@+id/textViewAnio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Genero" />
+
+    <Button
+        android:id="@+id/botonAñadir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Añadir" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/botonAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Atras" />
+
+        <Button
+            android:id="@+id/botonGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Guardar" />
+
+        <Button
+            android:id="@+id/botonVer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Ver" />
+    </LinearLayout>
+</LinearLayout>
